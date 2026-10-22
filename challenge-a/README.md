@@ -1,5 +1,18 @@
 # Challenge A: Agent với persistent memory
 
+# BÁO CÁO BÀI TẬP THỰC HÀNH BUỔI 7
+
+**Đại học Quốc gia Thành phố Hồ Chí Minh – Trường Đại học Công nghệ Thông tin**
+
+**Môn:** Kỹ thuật xây dựng hệ thống Agentic AI  
+**Chuyên đề:** Kỹ thuật sử dụng công cụ và kỹ năng trong Agentic AI
+
+| **Thông tin** | **Chi tiết** |
+|---|---|
+| Sinh viên thực hiện | Đào Minh Thiện |
+| MSSV | 23521477 |
+| Thời gian | Tp. Hồ Chí Minh, 10/2026 |
+
 Ứng dụng minh họa agent ghi nhớ quy ước dự án qua các phiên làm việc độc lập, theo Challenge A ở trang 14–15 của tài liệu môn học `slide.pdf`. Khi quy ước thay đổi, agent lưu bản mới và đánh dấu bản cũ đã được thay thế. Giao diện hiển thị memory được đưa vào context, hành động của model và kết quả công cụ.
 
 Vòng lặp do Python điều phối: model chọn hành động, Python thực thi công cụ memory và trả kết quả để model tiếp tục cho đến khi có câu trả lời cuối.
